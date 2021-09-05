@@ -1,0 +1,50 @@
+Number Theory/Math	
+	Prime Generation, Sieve and How to Optimize
+	Bitwise Sieve
+	Modular Arithmatic ( +  - *)
+	Modular Inverse (/)
+	Big Mod ( a^b % p)
+	Extended Euclid
+	Euler Phi
+	Inverse phi
+	Prime Factorization
+	Number of Divisor
+	Sum of Divisor
+	Factorizing n!
+	Shanks Algorithm
+	Probability Theory (Topcoder)
+	Dilworth's theorem
+	Chinese Reminder Theorem
+	Gaussian Elimination
+	Burnside Lemma
+	Finding Real roots of an n degree Equation
+	Given sum of divisors find possible n
+	Miller Rabin primality test
+	Pollard's rho algorithm
+	Taking modulo of Power (a^(b%MOD))%MOD
+	Lukas Theorem
+	Inclusion Exclusion
+	Mobius
+	Floyds Cycle Finding Algorithm
+
+Here in the Programming Contest Syllabus type collection
+
+https://docs.google.com/document/d/1_dc3Ifg7Gg1LxhiqMMmE9UbTsXpdRiYh4pKILYG2eA4/edit?fbclid=IwAR08obO14lTexTSrQDBvrfJbcIbmuD7KxcdvG4gYrFCfusmNZXqluaJpe0g
+
+In here in Number Theory part, there is sum references but I did not actually read most of them
+You can check some of the topics from here
+https://cp-algorithms.com/
+
+Also they are available in Geeks for geeks site here https://www.geeksforgeeks.org/mathematical-algorithms/
+
+Although I did not read it as it is relatively new site but I heard it is good
+The main strategy for you can be select a topic from the list, look at the resources or google about it, read it, solve 5-6 problem of it from lightoj and uva.
+
+Then move to next topic
+Like for 	Prime Generation, Sieve and How to Optimize & Bitwise Sieve, read about them from wikipedia, geeks for geeks and other side. Then solve from lightoj's category or uhunt.
+
+For any topic, if you can't understand the topic or have problem getting resources or problem, ask me.
+Also if anybody is just starting like 1-3 semester students, can start to learn math and number theory by doing https://projecteuler.net/
+For you I won't say it as you have experience and basic understandings
+the starting problems will be waste of time for you
+https://www.topcoder.com/community/competitive-programming/tutorials/
