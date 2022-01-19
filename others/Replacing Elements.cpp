@@ -6,28 +6,25 @@ using namespace std;
 #define FI freopen("in.txt","r",stdin);
 #define FO freopen("out.txt","w",stdout);
 
-int main()
-{
+int main() {
     int test;
-    cin>>test;
+    cin >> test;
 
-    for(int t=1; t<=test; t++)
-    {
+    for ( int t = 1; t <= test; t++ ) {
         int n, d;
         cin >> n >> d;
 
-        int arr[n];
+        int arr[ n ];
         bool initial = true;
 
-        for(int i = 0; i < n; i++) {
-            cin >> arr[i];
+        for ( int i = 0; i < n; i++ ) {
+            cin >> arr[ i ];
 
-            if (arr[i] > d)
-                initial = false;
+            if ( arr[ i ] > d ) initial = false;
         }
-        sort(arr,arr+n);
+        sort( arr, arr+n );
 
-        if (initial == true || (arr[0] + arr[1] <= d))
+        if ( (initial == true) || (arr[0] + arr[1] <= d) )
             cout << "YES" << endl;
         else
             cout << "NO" << endl;

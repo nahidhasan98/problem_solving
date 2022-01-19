@@ -6,13 +6,11 @@ using namespace std;
 #define FI freopen("in.txt","r",stdin);
 #define FO freopen("out.txt","w",stdout);
 
-int main()
-{
+int main() {
     int test;
-    cin>>test;
+    cin >> test;
 
-    for(int t=1; t<=test; t++)
-    {
+    for ( int t = 1; t <= test; t++ ) {
         double n, x;
         cin >> n >> x;
 

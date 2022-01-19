@@ -6,15 +6,14 @@ using namespace std;
 #define FO freopen( "out.txt", "w", stdout );
 #define space << ' ' <<
 
-long long getSum( long long n ) {
-    return ( n * ( n+1 ) ) / 2;
-}
-
 int main() {
-    long long n;
+    long long n, res = 0;
+    cin >> n;
 
-    while( cin >> n )
-        cout << getSum( n - 1 ) << endl;
+    if ( n % 2 == 0 ) res = n / 2;
+    else if ( n % 2 != 0 ) res =  ( n / 2 ) + 1;
+
+    cout << res << endl;
 
     return 0;
 }
